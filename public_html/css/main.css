@@ -1,0 +1,58 @@
+.centerTablica {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.centerUnos {
+	width: 70%;
+	margin: 10px auto;
+	
+}
+
+.sakri {
+	display: none;
+}
+
+table.tablica {
+	border-collapse:collapse;
+	font:16px Georgia, serif;
+	padding:0;
+	text-align: center;
+}
+
+.tablica th {
+	color:#FFF7F7;
+	background:#003F7F;
+	background: -moz-linear-gradient(top,  #003F7F 0%, #005FBF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#003F7F), color-stop(100%,#005FBF));
+	background: -webkit-linear-gradient(top,#003F7F 0%,#005FBF 100%);
+	background: -o-linear-gradient(top,#003F7F 0%,#005FBF 100%);
+	background: -ms-linear-gradient(top,#003F7F 0%,#005FBF 100%);
+	background: linear-gradient(top,#003F7F 0%,#005FBF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003F7F',endColorstr='#005FBF',GradientType=0s);
+	font-weight:100;
+	padding:10px;
+	text-align:left;
+	vertical-align: center;
+	text-align: center;
+}
+
+.tablica tr {
+	color:#000000;
+	font-weight:100;
+	vertical-align: center;
+	text-align: center;
+}
+
+.tablica td {
+	background:#FFFFFF;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+	padding:8px;
+	text-align:left;
+	vertical-align: center;
+	text-align: center;
+}
+
+
